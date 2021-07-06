@@ -1703,7 +1703,8 @@ main {
 	display: flex;
 	flex-wrap: wrap;
 	padding-top: 40px;
-	padding-bottom: 40px
+	padding-bottom: 40px;
+	width: 1175px;
 }
 
 .footer-links,
