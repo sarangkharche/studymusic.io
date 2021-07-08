@@ -49,3 +49,7 @@
     })
   }
 }())
+
+
+// lottie animation
+
