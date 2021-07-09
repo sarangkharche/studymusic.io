@@ -1569,7 +1569,7 @@ label {
 	.hero-copy {
 		padding-top: 60px;
 		padding-right: 88px;
-		min-width: 600px
+		min-width: 60%;
 	}
 	.hero-paragraph {
 		padding-left: 0;
@@ -1774,6 +1774,7 @@ main {
 		color: #fff
 	}
 }
+
 
 
 

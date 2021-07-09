@@ -1,0 +1,192 @@
+var json = [{
+    "station": {
+        "id": 1,
+        "name": "Light Background Music",
+        "shortcode": "light_background_music",
+        "description": "Study music radio station",
+        "frontend": "icecast",
+        "backend": "liquidsoap",
+        "listen_url": "https://player.studymusic.io:8000/radio.mp3",
+        "url": "https://studymusic.io",
+        "public_player_url": "https://player.studymusic.io/public/light_background_music",
+        "playlist_pls_url": "https://player.studymusic.io/public/light_background_music/playlist.pls",
+        "playlist_m3u_url": "https://player.studymusic.io/public/light_background_music/playlist.m3u",
+        "is_public": true,
+        "mounts": [{
+            "path": "/radio.mp3",
+            "is_default": true,
+            "id": 1,
+            "name": "128kbps MP3",
+            "url": "https://player.studymusic.io:8000/radio.mp3",
+            "bitrate": 128,
+            "format": "mp3",
+            "listeners": {
+                "total": 1,
+                "unique": 1,
+                "current": 1
+            }
+        }, {
+            "path": "/radio3",
+            "is_default": false,
+            "id": 2,
+            "name": "320",
+            "url": "https://player.studymusic.io:8000/radio3",
+            "bitrate": 320,
+            "format": "mp3",
+            "listeners": {
+                "total": 0,
+                "unique": 0,
+                "current": 0
+            }
+        }],
+        "remotes": []
+    },
+    "listeners": {
+        "total": 1,
+        "unique": 1,
+        "current": 1
+    },
+    "live": {
+        "is_live": false,
+        "streamer_name": "",
+        "broadcast_start": null
+    },
+    "now_playing": {
+        "elapsed": 28,
+        "remaining": 229,
+        "sh_id": 1440,
+        "played_at": 1625792252,
+        "duration": 257,
+        "playlist": "default",
+        "streamer": "",
+        "is_request": false,
+        "song": {
+            "id": "482a004b817ccb28d50010295d2624b2",
+            "text": "Yung Joc Feat. 3LW - Bout It",
+            "artist": "Yung Joc Feat. 3LW",
+            "title": "Bout It",
+            "album": "Step Up",
+            "genre": "Soundtrack",
+            "lyrics": "",
+            "art": "https://player.studymusic.io/api/station/1/art/8da053e79512b2d29bbb6108-1625578691.jpg",
+            "custom_fields": []
+        }
+    },
+    "playing_next": {
+        "cued_at": 1625792458,
+        "duration": 225,
+        "playlist": "default",
+        "is_request": false,
+        "song": {
+            "id": "3b191cedcbd3b661283c9f9ef17057d6",
+            "text": "Dolla - Feelin' Myself",
+            "artist": "Dolla",
+            "title": "Feelin' Myself",
+            "album": "Step Up",
+            "genre": "Soundtrack",
+            "lyrics": "",
+            "art": "https://player.studymusic.io/api/station/1/art/71b4bfd3a39ac209dd2b068a-1625574930.jpg",
+            "custom_fields": []
+        }
+    },
+    "song_history": [{
+        "sh_id": 1439,
+        "played_at": 1625792062,
+        "duration": 192,
+        "playlist": "default",
+        "streamer": "",
+        "is_request": false,
+        "song": {
+            "id": "83d7387b48ffb24cd8781423e9b8ef45",
+            "text": "Kelis - 80's Joint",
+            "artist": "Kelis",
+            "title": "80's Joint",
+            "album": "Step Up",
+            "genre": "Soundtrack",
+            "lyrics": "",
+            "art": "https://player.studymusic.io/api/station/1/art/b6787f04cc5a69dc006e5d68-1625573386.jpg",
+            "custom_fields": []
+        }
+    }, {
+        "sh_id": 1438,
+        "played_at": 1625791820,
+        "duration": 245,
+        "playlist": "default",
+        "streamer": "",
+        "is_request": false,
+        "song": {
+            "id": "0f4c8b4869426dd439b3dc78777d7574",
+            "text": "Sean Paul Feat. Keyshia Cole - (When You Gonna) Give It Up To Me",
+            "artist": "Sean Paul Feat. Keyshia Cole",
+            "title": "(When You Gonna) Give It Up To Me",
+            "album": "Step Up",
+            "genre": "Soundtrack",
+            "lyrics": "",
+            "art": "https://player.studymusic.io/api/station/1/art/e329eea37601546341e94a1e-1625576876.jpg",
+            "custom_fields": []
+        }
+    }, {
+        "sh_id": 1437,
+        "played_at": 1625791632,
+        "duration": 190,
+        "playlist": "default",
+        "streamer": "",
+        "is_request": false,
+        "song": {
+            "id": "59c10e09c01815384b95b0fd8e65d23e",
+            "text": "Drew Sidora - 'Til The Dawn",
+            "artist": "Drew Sidora",
+            "title": "'Til The Dawn",
+            "album": "Step Up",
+            "genre": "Soundtrack",
+            "lyrics": "",
+            "art": "https://player.studymusic.io/api/station/1/art/b9ce0a27a57dec6885b917aa-1625573801.jpg",
+            "custom_fields": []
+        }
+    }, {
+        "sh_id": 1436,
+        "played_at": 1625791391,
+        "duration": 243,
+        "playlist": "default",
+        "streamer": "",
+        "is_request": false,
+        "song": {
+            "id": "ff0a0e690546090e9a043aa9a598ee70",
+            "text": "Deep Side - Lovely",
+            "artist": "Deep Side",
+            "title": "Lovely",
+            "album": "Step Up",
+            "genre": "Soundtrack",
+            "lyrics": "",
+            "art": "https://player.studymusic.io/api/station/1/art/266911ff1af6bb22665a1ee2-1625575424.jpg",
+            "custom_fields": []
+        }
+    }, {
+        "sh_id": 1435,
+        "played_at": 1625791109,
+        "duration": 285,
+        "playlist": "default",
+        "streamer": "",
+        "is_request": false,
+        "song": {
+            "id": "71fe9c44440b46a490f1e6ac169075f7",
+            "text": "Gina Rene - U Must Be",
+            "artist": "Gina Rene",
+            "title": "U Must Be",
+            "album": "Step Up",
+            "genre": "Soundtrack",
+            "lyrics": "",
+            "art": "https://player.studymusic.io/api/station/1/art/bf755c2f7bf5d8744b2ca195-1625578619.jpg",
+            "custom_fields": []
+        }
+    }],
+    "is_online": true,
+    "cache": "redis"
+}];
+
+for (var key in json) {
+       if (json.hasOwnProperty(key)) {
+          alert(json[key].listeners.total);
+          alert(json[key].msg);
+       }
+    }
