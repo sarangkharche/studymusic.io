@@ -1814,7 +1814,7 @@ main {
 
 #girlLottie {
 
-	position:absolute; left: 59%; top: -6%; width: 500px; height: 600px;
+	position:absolute; left: 5%; top: 80%; width: 500px; height: 600px;
 }
 
 
@@ -1837,8 +1837,7 @@ main {
 
 	#girlLottie {
 
-		background-color: rgb(104, 104, 104);
-		position:absolute; left: 9%; top: 100%; width: 40px; height: 40px;
+		position:absolute; left: 5%; top: 90%; width: 300px; height: 300px;
 	}
 
 
